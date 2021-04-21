@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+#contenedor{
+    width: 90%;
+    background: rgb(171, 168, 168);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.primero{
+    background: red;
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.segundo{
+    background: cadetblue;
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.tercero{
+    background: green;
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 660px) and (max-width: 1200px) {
+    body{
+        background: rgb(247, 247, 149);
+    }
+}
